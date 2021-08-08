@@ -14,8 +14,8 @@ jobs:
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/xbdhdhshsbbs/rdp1/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/RealZytek/rdp/main/wallpaper.png -OutFile wallpaper.png
-        Invoke-WebRequest https://github.com/xbdhdhshsbbs/rdp1/blob/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://github.com/xbdhdhshsbbs/rdp1/blob/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/RealZytek/rdp/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/RealZytek/rdp/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/RealZytek/rdp/main/launcher/Node.js.lnk -OutFile Node.js.lnk
